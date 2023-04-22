@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Glass Div with Gradient Background</title>
+  <title>CogniBase</title>
   <style>
  body {
       background: linear-gradient(to bottom, white, lightsteelblue);
@@ -9,11 +9,12 @@
     .cardwhite {
         border-radius: 15px;
         box-shadow: 8px 8px 3rem 0 rgba(0, 0, 0, 0.3);
-       
+        
         overflow: hidden;
         position: absolute;
         background: inherit;
         width: 80vw;
+        height: 80vh;
         z-index: 5500;
         background-color: rgba(255, 255, 255, 0.3);
         transform: translate(-50%, 5%);
@@ -30,35 +31,57 @@
             backdrop-filter: blur(10px);
             border: 1px solid whitesmoke;
         }
+    
+        .button {
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        color: #333;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .button:hover {
+        background-color: #ddd;
+      }
   </style>
 </head>
 <body>
-<table width="100%">
-    <tr">
-        <td width="20%"><img src="data/CogniBase-logo.png" height="50px"/></td>
-        <td width="80%" align="right"><span style="font-size: larger; font-weight: bolder; color: steelblue; font-family:Arial, Helvetica, sans-serif;" >CogniBase. A source for truthful AI.</span></td>
-    </tr>
-</table>
+    <table width="100%">
+        <tr">
+            <td width="5%"><img src="data/CogniBase-logo.png" height="50px"/></td>
+            <td width="55%" align="left"><span style="font-size: larger; font-weight: bolder; color: steelblue; font-family:Arial, Helvetica, sans-serif;" >CogniBase. A source for truthful AI.</span></td>
+            <td width="400%" align="right"><span style="font-size: larger; font-weight: bolder; color: steelblue; font-family:Arial, Helvetica, sans-serif;" ><a href="index.html" class="button">Home</a><a href="about.html" class="button">About</a></span></td>
+        </tr>
+    </table>
 
 <div style="display: flex; justify-content: center; align-items:center;">
-<div>
-    <div  class="cardwhite">
-    <p style="width: 95%; margin-left: 10px;color: rgb(24, 46, 63); font-size: large;font-family:Arial, Helvetica, sans-serif;">
-    Truthfulness must be a natural condition of Large Language Models (LLM). 
-    <br/><br/>
-    To achieve this, we aim to create a human-curated, unbiased, and non-opiniated knowledge base of facts accessible to anyone, anywhere. This knowledge base will be structured by themes and topics and will be extended systematically.
-    <br/><br/>
-    Currently, non-truthful responses in LLM are often addressed by accessing multiple websites for additional information, which sometime leads to incomplete and biased results. This is why human revision is necessary.
-    <br/><br/>
-    We plan to realize our ambitious goal by using cutting-edge natural language processing technology. Autonomous agents powered by GPT-4 will create the database of facts from the internet and guide the human revision, checking on biases and opiniated texts and will monitor the sources, for newly created knowledge. 
-    <br/><br/>
-    Our revenues will come from subscriptions to our chat platform, advertising for those free subscribers, pay-per-use of our cloud-based API and leasing our ever-growing knowledge base to third-party organizations. With our diverse streams of revenue, we can ensure rapid growth and provide measurable advances month after month. 
-    <br/><br/>
+    <div >  
+    <div  class="cardwhite" >
+          
+            <div style="padding-top: 20px; overflow: auto; height: 75vh; width: 95%; margin-left: 10px;color: rgb(24, 46, 63); font-size: large;font-family:Arial, Helvetica, sans-serif;">
+            Truthfulness must be a natural condition of Large Language Models (LLM). 
+            <br/><br/>
+            To achieve this, we aim to create a human-curated, unbiased, and non-opiniated knowledge base of facts accessible to anyone, anywhere. This knowledge base will be structured by themes and topics and will be extended systematically.
+            <br/><br/>
+            Currently, non-truthful responses in LLM are often addressed by accessing multiple websites for additional information, which sometime leads to incomplete and biased results. This is why human revision is necessary.
+            <br/><br/>
+            We plan to realize our ambitious goal by using cutting-edge natural language processing technology. Autonomous agents powered by GPT-4 will create the database of facts from the internet and guide the human revision, checking on biases and opiniated texts and will monitor the sources, for newly created knowledge. 
+            <br/><br/>
+            Our revenues will come from subscriptions to our chat platform, advertising for those free subscribers, pay-per-use of our cloud-based API and leasing our ever-growing knowledge base to third-party organizations. With our diverse streams of revenue, we can ensure rapid growth and provide measurable advances month after month. 
+            <br/><br/>
 
-    The need for reliable information will grow exponentially as LLM becomes more widely used and CogniBase is poised to become the go-to platform for expanding knowledge and accelerating learning. Join us today and be part of the future of cognitive enhancement powered by truthful AI!
-    </p>
-</div>
-</div>
+            The need for reliable information will grow exponentially as LLM becomes more widely used and CogniBase is poised to become the go-to platform for expanding knowledge and accelerating learning. Join us today and be part of the future of cognitive enhancement powered by truthful AI!
+            </div>
+
+        </div>
+    </div>
 </div>
 
 </body>
